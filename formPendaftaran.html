@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Mahasiswa</title>
+</head>
+<body>
+    <h1>Formulir Data Mahasiswa</h1>
+    <form action="/submit" method="post">
+        <label for="userid">User ID:</label>
+        <input type="text" id="userid" name="userid" required><br>
+
+        <label for="namalengkap">Nama Lengkap:</label>
+        <input type="text" id="namalengkap" name="namalengkap" required><br>
+
+        <label for="prodi">Program Studi:</label>
+        <input type="text" id="prodi" name="prodi" required><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea><br>
+
+        <label for="asalsekolah">Asal Sekolah:</label>
+        <input type="text" id="asalsekolah" name="asalsekolah" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
