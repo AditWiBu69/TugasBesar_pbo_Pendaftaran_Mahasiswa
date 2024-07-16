@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daftar Mahasiswa</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Daftar Mahasiswa</h1>
+    <a href="formPendaftaran.html">
+        <button>
+            Tambah Data
+        </button>
+    </a>
+    <table id="mahasiswa-table">
+        <thead>
+            <tr>
+                <th>Nama Lengkap</th>
+                <th>Program Studi</th>
+                <th>Alamat</th>
+                <th>Asal Sekolah</th>
+                <th>Action</th> <!-- Kolom untuk tombol hapus -->
+            </tr>
+        </thead>
+        <tbody id="mahasiswa-body">
+            <!-- Data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="js/controller/get.js"></script>
+</body>
+</html>
