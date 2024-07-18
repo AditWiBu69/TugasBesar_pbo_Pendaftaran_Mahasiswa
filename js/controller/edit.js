@@ -27,7 +27,7 @@ document.getElementById('mahasiswaForm').addEventListener('submit', function(eve
         asalsekolah: asalsekolah
     };
 
-    fetch('https://pbo-tugasbesar-c553f4142173.herokuapp.com/api/mahasiswa/' + idValue, {
+    fetch('https://pbo-tugasbesar-9b0df08c0d9c.herokuapp.com/api/mahasiswa/' + idValue, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
