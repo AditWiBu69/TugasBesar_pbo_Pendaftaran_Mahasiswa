@@ -8,11 +8,36 @@
 <body>
     <h1>Formulir Data Mahasiswa</h1>
     <form id="mahasiswaForm">
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required><br>
+
         <label for="namalengkap">Nama Lengkap:</label>
         <input type="text" id="namalengkap" name="namalengkap" required><br>
 
+        <label for="tgl_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tgl_lahir" name="tgl_lahir" required><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-Laki">
+        <label for="laki_laki">Laki-Laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br>
+
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama" required>
+            <option value="">-- Pilih Agama --</option>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Lainnya">Lainnya</option>
+        </select><br>
+
         <label for="prodi">Program Studi:</label>
-        <input type="text" id="prodi" name="prodi" required><br>
+        <input type="checkbox" id="s1_ti" name="prodi" value="S1 - Teknik Informatika">
+        <label for="s1_ti">S1 - Teknik Informatika</label>
+        <input type="checkbox" id="s1_si" name="prodi" value="S1 - Sistem Informasi">
+        <label for="s1_si">S1 - Sistem Informasi</label><br>
 
         <label for="alamat">Alamat:</label>
         <textarea id="alamat" name="alamat" rows="4" required></textarea><br>
