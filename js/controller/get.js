@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const apiUrl = 'https://pbo-tugasbesar-c553f4142173.herokuapp.com/api/mahasiswa';
+    const apiUrl = 'https://pbo-tugasbesar-9b0df08c0d9c.herokuapp.com/api/mahasiswa';
 
     function fetchDataAndRender() {
         fetch(apiUrl)
